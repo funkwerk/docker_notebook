@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, h7:hover {
-  color: #ff0000;
+  color: #4D182D;
 }
 
 h1, h2, h3, h4, h5, h6, h7 {
@@ -69,11 +69,36 @@ h2:before {
 */
 }
 
-p::selection {
-  background: red;
-  color: yellow;
-}
-
 [href$=".pdf"]::before {
   content: url("https://cdn3.iconfinder.com/data/icons/document-icons-2/30/647716-pdf-24.png") " ";
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  color: #7C2648;
+}
+
+reveal h1:hover, reveal h2:hover, reveal h3:hover, reveal h4:hover, reveal h5:hover, reveal h6:hover {
+  color: #4D182D;
+  font-family: "arial narrow"; 
+}
+
+body {
+  background-image: url("/static/base/images/logo.png");
+  background-repeat: no-repeat;
+  background-position: 1% 99%;
+  background-size: 200px;
+}
+
+#help_b {
+  display: none;
+}
+
+::selection {
+  background: #7C2648;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: #7C2648;
+  color: #ffffff;
 }
