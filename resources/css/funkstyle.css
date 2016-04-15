@@ -44,10 +44,15 @@ span.save_widget {
   color: #d0d0d0;
 }
 
-#kernel_logo_widget, #kernel_indicator, #menubar {
+#kernel_logo_widget, #kernel_indicator {
   display: none;
   visibility: hidden;
 }
+
+/*#kernel_logo_widget, #kernel_indicator, #menubar {
+  display: none;
+  visibility: hidden;
+}*/
 
 body {
 /*  counter-reset: heading;
